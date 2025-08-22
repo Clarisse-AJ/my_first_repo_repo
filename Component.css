@@ -1,0 +1,31 @@
+/* color palette: https://colorhunt.co/palette/fff3c7fec7b4fc819ef7418f */
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #FFF3C7;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #F7418F;
+}
+
+.topnav a {
+  float: left;
+  color: #FFF3C7;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #FC819E;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #FEC7B4;
+  color: white;
+  text-shadow: 2px 2px #F7418F;
+}
